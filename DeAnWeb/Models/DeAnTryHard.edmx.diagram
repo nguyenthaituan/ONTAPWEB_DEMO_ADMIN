@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86a21b84555c4140849a1220f7c5dc14" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="ShopperModel.Administrator" Width="1.5" PointX="1.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Categories" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Comments" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Customers" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.OrderDetails" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Orders" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Producers" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Products" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.ProductTypes" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopperModel.Rates" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="ShopperModel.FK__ProductTy__cateI__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__Comments__proID__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__Orders__cusPhone__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__OrderDeta__order__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__OrderDeta__proID__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__Products__pdcID__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__Products__typeID__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopperModel.FK__Rates__proID__25869641" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
